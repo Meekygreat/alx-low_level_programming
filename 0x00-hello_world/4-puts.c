@@ -1,8 +1,11 @@
 #include <stdio.h>
-
+/**
+ *main -Printing 
+ *
+ *Return: Always 0 (Successful)
+ */
 int main(void)
 {
-  put("with proper grammar, but the outcome is a piece of art,");
-
-  return (0);
+  puts("\"Programming is like a buidling multilingual puzzle");
+  return(0);
 }
