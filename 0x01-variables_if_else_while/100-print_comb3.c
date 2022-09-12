@@ -1,34 +1,32 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 
 /**
- *  * main - Entry Point
- *   *
- *    * Return: Always 0 (Success)
- **/
+ *main - Entry point
+ *Return: Always 0 (Success)
+ */
+
 
 int main(void)
 {
-	int digit1, digit2;
+	int i;
+	int j;
 
-	for (digit1 = 0; digit1 < 99; digit1++)
-		for (digit2 = digit1 + 1; digit2 < 100; digit2++)
+	for (i = '0'; i <= '8'; i++)
+	{
+		for (j = i + 1; j <= '9'; j++)
 		{
-			putchar((digit1 / 10) + '0');
-			putchar((digit1 % 10) + '0');
-			putchar(' ');
-			putchar((digit2 / 10) + '0');
-			putchar((digit2 % 10) + '0');
-
-			if (digit1 != 98)
+			putchar(i);
+			putchar(j);
+			if (j < '9' || i < '8')
 			{
 				putchar(',');
 				putchar(' ');
 			}
-			else
-				continue;
+
 		}
-
+	}
 	putchar('\n');
-
 	return (0);
 }
