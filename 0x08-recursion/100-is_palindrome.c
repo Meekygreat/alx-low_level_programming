@@ -1,34 +1,12 @@
-main.h.txt
-Who has access
-A
-System properties
-Type
-Text
-Size
-462 bytes
-Storage used
-462 bytes
-Location
-0x08. C - Recursion
-Owner
-Antony Bahati
-Modified
-Sep 28, 2022 by Antony Bahati
-	Opened
-	3:17 AM by me
-	Created
-	3:30 PM
-	No description
-	Viewers can download
-	#include "main.h"
+#include "main.h"
 
-	/**
-	 * is_palindrome - returns the 1 if s is a palindrome
-	 * @s: string to be checked
-	 *
-	 * Return: 1 if s is a palindrome, 0 otherwise
-	 */
-	int is_palindrome(char *s)
+/**
+ * is_palindrome - returns the 1 if s is a palindrome
+ * @s: string to be checked
+ *
+ * Return: 1 if s is a palindrome, 0 otherwise
+ */
+int is_palindrome(char *s)
 {
 	int flag = 1;
 
