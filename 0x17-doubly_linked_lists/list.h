@@ -1,6 +1,11 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+/*
+ * File: lists.h
+ * Auth: Favour Akanegbu
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -11,6 +16,7 @@
  * @next: points to the next node
  *
  * Description: doubly linked list node structure
+ * for Holberton project
  */
 typedef struct dlistint_s
 {
